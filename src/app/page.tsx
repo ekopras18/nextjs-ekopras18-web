@@ -1,9 +1,15 @@
-import Image from 'next/image'
+import HeroSection from '@/components/HeroSection'
+import React from 'react'
 
 export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <section>
+        <HeroSection />
+      </section>
+      <section>
+
+      </section>
+    </>
   )
 }
