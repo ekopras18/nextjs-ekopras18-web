@@ -15,7 +15,7 @@ export default function HeroSection() {
               <span className="block text-green-500 xl:inline">
                 <Typewriter
                   options={{
-                    strings: ['Eko Prasetio, B.Eng., S.Kom.','as Jeruk Pras 🍊','a Full Stack Developer'],
+                    strings: ['Eko Prasetio, B.Eng., S.Kom.','as Jeruk Pras','a Full Stack Developer'],
                     autoStart: true,
                     deleteSpeed: 30,
                     loop: true,
