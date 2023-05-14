@@ -11,11 +11,11 @@ export default function HeroSection() {
         <div className="pt-20 pb-12 md:pt-40 md:pb-20">
           <div className="text-center">
             <h1 className="text-3xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">Hello, I'm</span>{' '}
+              <span className="block xl:inline">Hello, I&apos;m</span>
               <span className="block text-green-500 xl:inline">
                 <Typewriter
                   options={{
-                    strings: ['Eko Prasetio, B.Eng., S.Kom.','as Jeruk Pras','a Full Stack Developer'],
+                    strings: ['Eko Prasetio, B.Eng., S.Kom.','as Jeruk Pras 🍊','a Full Stack Developer'],
                     autoStart: true,
                     deleteSpeed: 30,
                     loop: true,
