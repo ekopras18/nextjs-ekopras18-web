@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react'
 
-function HamburgerMenu() {
+export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -70,4 +70,4 @@ function HamburgerMenu() {
   )
 }
 
-export default HamburgerMenu
+// export default HamburgerMenu
