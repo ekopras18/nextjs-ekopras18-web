@@ -2,8 +2,7 @@ import '../assets/globals.css'
 import FooterSection from '@/components/layout/FooterSection'
 import BackgroundColor from '@/components/layout/BackgroundColor'
 import Header from '@/components/layout/Header'
-import type { Metadata } from 'next';
-import { Providers } from '@/components/providers';
+import { Providers } from '@/components/Providers';
 
 
 
