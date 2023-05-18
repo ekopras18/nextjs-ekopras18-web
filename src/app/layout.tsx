@@ -2,6 +2,7 @@ import '../assets/globals.css'
 import FooterSection from '@/components/layout/FooterSection'
 import BackgroundColor from '@/components/layout/BackgroundColor'
 import Header from '@/components/layout/Header'
+import { Providers } from '@/components/Providers'
 
 
 
@@ -23,17 +24,7 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
+  robots: 'follow, index',
   icons: {
     shortcut: "favicon.svg",
   },
@@ -44,24 +35,17 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-
   // const inter = Inter({ subsets: ['latin'],display: 'swap',})
 
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className="dark:bg-[#4efd910e]">
-        <section>
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <Providers>
           <Header />
-        </section>
-        <section>
           <BackgroundColor />
-        </section>
-        <section>
           {children}
-        </section>
-        <section>
           <FooterSection />
-        </section>
+        </Providers>
       </body>
     </html>
   )
