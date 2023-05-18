@@ -2,7 +2,7 @@ import '../assets/globals.css'
 import FooterSection from '@/components/layout/FooterSection'
 import BackgroundColor from '@/components/layout/BackgroundColor'
 import Header from '@/components/layout/Header'
-import { Providers } from '@/components/Providers';
+import { Providers } from '@/components/Providers'
 
 
 
