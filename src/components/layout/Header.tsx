@@ -1,6 +1,8 @@
+"use client"
 import * as React from 'react';
 import Link from 'next/link';
 import HamburgerMenu from './HamburgerMenu';
+import ThemeButton from '../buttons/ThemeButton';
 
 export default function Header() {
   return (
@@ -36,14 +38,12 @@ export default function Header() {
                 </svg>
               </Link>
             </div>
-            <div className="justify-end hidden w-full gap-2 md:flex">
-              <Link
-                className="rounded-full px-4 flex h-9 items-center text-sm font-medium transition-colors duration-200 leading-none bg-gray-800 text-gray-0 border border-black  hover:text-gray-800 hover:border-gray-800"
-                href="">
-              </Link>
+            
+            <div className="flex justify-end items-center gap-2 w-full ">
+            <div className="justify-end md:block">
+              <ThemeButton />
             </div>
-            <div className="flex justify-end items-center gap-4 w-full md:hidden">
-              <span className="text-3xl cursor-pointer  mx-2 md:hidden block">
+              <span className="text-3xl cursor-pointer  mx-0 md:hidden block">
                 <HamburgerMenu />
               </span>
             </div>
