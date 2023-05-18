@@ -18,7 +18,7 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-[700px] md:h-[880px]">
-      <div className="absolute w-full h-full bg-cover bg-center hidden dark:block" style={{ backgroundImage: `url('/hero.svg')`, filter: 'blur(9px)' }}></div>
+      <div className="absolute w-full h-full bg-cover bg-center hidden dark:block" style={{ backgroundImage: `url('/background.svg')`, filter: 'blur(9px)' }}></div>
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="pt-20 pb-12 md:pt-40 md:pb-20">
@@ -28,7 +28,7 @@ export default function HeroSection() {
                 <span className="block text-green-500 xl:inline" data-fade='2'>
                   <Typewriter
                     options={{
-                      strings: ['Eko Prasetio, B.Eng., S.Kom.', 'as Jeruk Pras 🍊', 'a Full Stack Developer'],
+                      strings: ['Eko Prasetio, B.Eng., S.Kom.', 'a Full Stack Developer 🦖'], //'as Jeruk Pras 🍊', 
                       autoStart: true,
                       deleteSpeed: 30,
                       loop: true,
