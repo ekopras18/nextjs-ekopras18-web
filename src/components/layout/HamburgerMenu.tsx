@@ -66,5 +66,3 @@ export default function HamburgerMenu() {
     </div>
   )
 }
-
-// export default HamburgerMenu
