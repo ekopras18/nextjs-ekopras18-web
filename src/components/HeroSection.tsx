@@ -23,7 +23,7 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="pt-20 pb-12 md:pt-40 md:pb-20">
             <div className="text-center">
-              <h1 className="text-3xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+              <h1 className="text-3xl tracking-tight font-extrabold text-green-400 dark:text-green-50 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline" data-fade='1'>Hello, I&apos;m</span>
                 <span className="block text-green-500 xl:inline" data-fade='2'>
                   <Typewriter
