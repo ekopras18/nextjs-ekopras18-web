@@ -131,11 +131,13 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex flex-1 flex-col justify-between">
-                  <img
-                    alt="Name"
-                    src="https://optimasolution.co.id/wp-content/uploads/sites/47/2016/02/erp.PNG"
-                    className="aspect-square h-56 w-full object-cover"
-                  />
+                  <picture>
+                    <img
+                      alt="Name"
+                      src="https://optimasolution.co.id/wp-content/uploads/sites/47/2016/02/erp.PNG"
+                      className="aspect-square h-56 w-full object-cover"
+                    />
+                  </picture>
                   <div className="border-s border-gray-900/10 p-2 sm:border-l-transparent sm:p-2">
                     <a href="#">
                       <h3 className="font-bold uppercase text-gray-800 dark:text-green-100">

@@ -35,7 +35,9 @@ export default function ContactPage() {
                   <div data-is-collapsed="true">
                     <div className="">
                       {profilePicture ? (
-                        <img className='rounded-full shadow-md dark:shadow-green-900 transition-shadow duration-300 hover:shadow-lg' src={profilePicture} alt="Profile Picture" />
+                        <picture>
+                          <img className='rounded-full shadow-md dark:shadow-green-900 transition-shadow duration-300 hover:shadow-lg' src={profilePicture} alt="Profile Picture" />
+                        </picture>
                       ) : (
                         <div className="animate-pulse space-x-4 text-center">
                           Loading ...

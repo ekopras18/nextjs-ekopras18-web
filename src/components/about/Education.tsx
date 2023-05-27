@@ -4,25 +4,25 @@ export default function Education() {
   const timelineData = [
     {
       year: '2015-2017',
-      head : 'SMK',
+      head: 'SMK',
       title: 'Diponegoro Banyuputih Batang',
-      degree : null,
-      description : 'Computer and Network Engineering',
+      degree: null,
+      description: 'Computer and Network Engineering',
       logo: 'education/dipo.svg'
     },
     {
       year: '2015-2017',
-      head : 'UAD',
+      head: 'UAD',
       title: 'Universitas Ahmad Dahlan',
-      degree : 'S.Kom',
-      description : 'Informatics Engineering',
+      degree: 'S.Kom',
+      description: 'Informatics Engineering',
       logo: 'education/uad.svg'
     },
     {
       year: '2017-2019',
-      head : 'GXUN',
+      head: 'GXUN',
       title: 'Guangxi University For Nationalities',
-      degree : 'B.Eng',
+      degree: 'B.Eng',
       description: 'Computer Science and Technology - 15 International Students Class 2+2',
       logo: 'education/gxun.svg'
     },
@@ -33,7 +33,9 @@ export default function Education() {
         <div className="flex py-3" key={index}>
           <div className="w-16">
             <div className="rounded-full flex items-center justify-center">
-              <img src={item.logo} alt={item.title} />
+              <picture>
+                <img src={item.logo} alt={item.title} />
+              </picture>
             </div>
           </div>
           <div className="w-4/5">

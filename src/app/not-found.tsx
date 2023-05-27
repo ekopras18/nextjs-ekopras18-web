@@ -41,7 +41,7 @@ export default function NotFound() {
           Oops! 404
         </h1>
         <p className="py-2"><Link href="/">Back To Home</Link></p>
-        <p className="py-2 text-gray-500">We can't find that page.</p>
+        <p className="py-2 text-gray-500">We can&apos;t find that page.</p>
       </div>
     </div>
   );
