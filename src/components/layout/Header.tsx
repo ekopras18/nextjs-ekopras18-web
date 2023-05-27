@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header
           className="h-[64px] sticky top-0 z-50 flex flex-col w-full antialiased backdrop-blur-sm backdrop-saturate-200 bg-white/80 dark:bg-black/50">
-          <nav className="mb-[-1px] h-full flex items-center w-full max-w-screen-xl px-4 md:px-24 mx-auto">
+          <nav className="mb-[-1px] h-full flex items-center w-full max-w-screen-xl px-4 mx-auto">
             <div className="flex gap-1 items-center">
               <Link href="/" title="">
                 <div className="cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 text-green-500">
@@ -23,13 +23,10 @@ export default function Header() {
             <div className="hidden md:flex item-center gap-6 ml-[44px]">
               <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
                 href="/">Home</Link>
-              {/* text-blue-500 */}
               <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
-                href="/portofolio">Portofolio</Link>
+                href="/portfolio">Portfolio</Link>
               <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
                 href="/about">About</Link>
-              <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
-                href="/contact">Contact</Link>
               <Link className="text-sm relative transition-colors duration-200 text-gray-500 hover:text-green-500"
                 href="/repository" rel="noopener noreferrer">Repository
                 <svg aria-hidden="true" className="absolute top-[0.5px] right-[-10px] fill-current" height="7" viewBox="0 0 6 6" width="7">
