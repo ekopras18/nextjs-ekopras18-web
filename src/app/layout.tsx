@@ -4,8 +4,6 @@ import BackgroundColor from '@/components/layout/BackgroundColor'
 import Header from '@/components/layout/Header'
 import { Providers } from '@/components/Providers'
 
-
-
 export const metadata = {
   title: {
     default: "Eko Prasetio, B.Eng., S.Kom.",
@@ -38,7 +36,7 @@ export default function RootLayout({
   // const inter = Inter({ subsets: ['latin'],display: 'swap',})
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="scroll-smooth">
       <body>
         <Providers>
           <Header />
