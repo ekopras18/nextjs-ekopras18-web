@@ -36,14 +36,14 @@ export default function Skills() {
     <div className="mt-5">
       {skills.map((skill, index) => (
         <div className="text-md" key={index}>
-          <h3 className="text-md font-semibold">{skill.name}</h3>
+          <h3 className="text-md font-semibold text-gray-600 dark:text-gray-50">{skill.name}</h3>
 
           <div className='flex py-2 pl-2'>
             <div className='px-1'>
               <ul>
                 <li className="mb-2 flex flex-wrap">
                   {skill.data.map((item, index2) => (
-                    <span key={index2} className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium border-gray-200 dark:border-green-100 shadow-md shadow-black/5 dark:shadow-green-900 transition-shadow duration-300 hover:shadow-lg space-y-2">{item.name}</span>
+                    <span key={index2} className="mr-2 my-1 rounded-full border px-4 text-sm py-2 font-medium border-gray-200 dark:border-green-100 shadow-md shadow-black/5 dark:shadow-green-900 transition-shadow duration-300 hover:shadow-lg space-y-2 text-gray-500 dark:text-gray-50">{item.name}</span>
                   ))}
                 </li>
               </ul>

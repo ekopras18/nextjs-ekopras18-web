@@ -132,7 +132,7 @@ export default function ContactPage() {
 
             <div className='flex py-1' id='educations'>
               <div className='w-full pb-5'>
-                <h3 className='text-base md:text-md font-medium'>EDUCATION</h3>
+                <h3 className='text-base md:text-md font-medium text-gray-600 dark:text-gray-50'>EDUCATION</h3>
                 <div className=' border-b py-1 border-gray-200 dark:border-green-100' />
                 <Education />
               </div>
@@ -140,7 +140,7 @@ export default function ContactPage() {
 
             <div className='flex py-1' id='skills'>
               <div className='w-full pb-5'>
-                <h3 className='text-base md:text-md font-medium'>SKILL</h3>
+                <h3 className='text-base md:text-md font-medium text-gray-600 dark:text-gray-50'>SKILL</h3>
                 <div className='border-b py-1 border-gray-200 dark:border-green-100' />
                 <Skills />
               </div>
@@ -148,7 +148,7 @@ export default function ContactPage() {
 
             <div className='flex py-1' id='experience'>
               <div className='w-full pb-5'>
-                <h3 className='text-base md:text-md font-medium'>EXPERIENCE</h3>
+                <h3 className='text-base md:text-md font-medium text-gray-600 dark:text-gray-50'>EXPERIENCE</h3>
                 <div className='border-b py-1 border-gray-200 dark:border-green-100' />
                 <Experience />
               </div>

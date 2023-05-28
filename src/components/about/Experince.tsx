@@ -34,14 +34,14 @@ export default function Experience() {
     <div className="mt-5">
       {experiences.map((item, index) => (
         <div className="" key={index}>
-          <h3 className="text-md font-semibold">{item.name}</h3>
+          <h3 className="text-md font-semibold text-gray-600 dark:text-gray-50">{item.name}</h3>
 
           <div className='flex py-2 pl-2'>
             <div className='px-1'>
                   {item.data.map((item2, index2) => (
                     <div className="flex items-center py-2" key={index2}>
                       <div>
-                        <h3 className="text-sm font-semibold">{item2.name}</h3>
+                        <h3 className="text-sm font-semibold text-gray-600 dark:text-gray-50">{item2.name}</h3>
                         <p className="text-gray-500 text-sm">{item2.description}</p>
                       </div>
                     </div>
