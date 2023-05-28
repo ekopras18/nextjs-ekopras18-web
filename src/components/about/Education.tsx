@@ -39,8 +39,8 @@ export default function Education() {
             </div>
           </div>
           <div className="w-4/5">
-            <h2 className="text-md mb-1"><b className='font-bold text-green-600'>{item.head}</b> {item.title}</h2>
-            <p className="text-gray-400 text-sm">{item.year} | {item.description}</p>
+            <h2 className="text-md mb-1 text-gray-600 dark:text-gray-50"><b className='font-bold text-green-600'>{item.head}</b> {item.title}</h2>
+            <p className="text-gray-500 text-sm">{item.year} | {item.description}</p>
           </div>
         </div>
       ))}
