@@ -25,6 +25,7 @@ export default function Experience() {
         { name: 'Restful API Absensi (Absensi Digital Mamberamo)', description: 'Lead & Backend' },
         { name: 'Restful API Pendaftaran Omedi Rawat jalan', description: 'Lead & Backend' },
         { name: 'Restful API Lisensi Aplikasi Internal', description: 'Lead & Backend' },
+        { name: 'Integrasi API Ipaymu (Payment Gateway)', description: 'Lead & Backend' },
       ]
     },
     // Tambahkan item portofolio lainnya sesuai kebutuhan
