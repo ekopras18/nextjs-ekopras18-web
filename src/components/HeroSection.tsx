@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import GitHubCalendar from 'react-github-calendar';
+import BuildWith from '@/components/BuildWith';
 
 export default function HeroSection() {
   const [isToggled, setIsToggled] = useState(true);
@@ -24,24 +25,24 @@ export default function HeroSection() {
           <div className="pt-20 pb-12 md:pt-40 md:pb-20">
             <div className="text-center">
               <div className='py-2'>
-              <h1 className="text-3xl tracking-tight font-extrabold text-green-500 dark:text-green-100 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Hi 👋 , I&apos;m</span>
-                <span className="block  xl:inline">
-                  <Typewriter
-                    options={{
-                      strings: ['Eko Prasetio, B.Eng., S.Kom.', 'a Full Stack Developer 🦖'], //'as Jeruk Pras 🍊', 
-                      autoStart: true,
-                      deleteSpeed: 30,
-                      loop: true,
-                      cursor: '|',
-                      wrapperClassName: 'text-green-500',
-                    }}
-                  />
-                </span>
-              </h1>
-              <p className="mx-2 md:mx-auto mt-2 max-w-md text-sm text-gray-500 md:text-base md:mt-5 md:max-w-3xl" data-fade='3'>
-                I have 2.9 years of experience in developing end-to-end applications and I am confident that I can contribute fully to the team and achieve desired business goals.
-              </p>
+                <h1 className="text-3xl tracking-tight font-extrabold text-green-500 dark:text-green-100 sm:text-5xl md:text-6xl">
+                  <span className="block xl:inline">Hi 👋 , I&apos;m</span>
+                  <span className="block  xl:inline">
+                    <Typewriter
+                      options={{
+                        strings: ['Eko Prasetio, B.Eng., S.Kom.', 'a Full Stack Developer 🦖'], //'as Jeruk Pras 🍊', 
+                        autoStart: true,
+                        deleteSpeed: 30,
+                        loop: true,
+                        cursor: '|',
+                        wrapperClassName: 'text-green-500',
+                      }}
+                    />
+                  </span>
+                </h1>
+                <p className="mx-2 md:mx-auto mt-2 max-w-md text-sm text-gray-500 md:text-base md:mt-5 md:max-w-3xl" data-fade='3'>
+                  I have 2.9 years of experience in developing end-to-end applications and I am confident that I can contribute fully to the team and achieve desired business goals.
+                </p>
               </div>
               <div className='py-2'>
                 <p>Code Your Dreams, Ignite the Future</p>
@@ -79,7 +80,9 @@ export default function HeroSection() {
                   <GitHubCalendar username="ekopras18" loading={isToggled} />
                 </div>
               </div>
-              
+              <div className='mt-8'>
+                <BuildWith />
+              </div>
             </div>
           </div>
         </div>
