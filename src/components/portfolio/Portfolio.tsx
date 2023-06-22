@@ -87,6 +87,13 @@ export default function Portfolio() {
       date: '28-05-2023',
       link: '#',
     },
+    {
+      name: 'Integrasi API Ipaymu (Payment Gateway)',
+      description: 'Lead & Backend',
+      images: 'portfolio/noimage.png',
+      date: '22-06-2023',
+      link: '#',
+    },
   ];
   
   return (
