@@ -57,7 +57,7 @@ export default function HeroSection() {
                   </a>
                 </div>
                 <div className="mx-2">
-                  <a href="https://drive.google.com/file/d/1BgtMFNTWdHpp7wDpbOwKnHGQaDmukhuv/view?usp=sharing" target='_blank'>
+                  <a href="https://drive.google.com/file/d/1e_uYjaHYb1POzaJDvFDz2EPucLR3Vnsf/view?usp=sharing" target='_blank'>
                     <button className="w-full relative inline-block px-8 py-2 text-sm font-medium dark:text-white text-green-500 transition duration-300 ease-in-out border-2 border-green-500 rounded-md outline-none focus:outline-none hover:bg-green-500 hover:text-white hover:border-transparent">
                       My Resume
                       <span className="absolute top-0 right-0 block w-full h-full border-2 dark:border-gray-900 rounded-md pointer-events-none"></span>
