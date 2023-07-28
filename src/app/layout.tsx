@@ -53,6 +53,8 @@ export default function RootLayout({
           gtag('config', 'G-84ST0BV9VV');
         `}
       </Script>
+      <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8074306341178343"
+     crossOrigin="anonymous"></Script>
       <body className={dosis.className}>
         <Providers>
           <Header />
