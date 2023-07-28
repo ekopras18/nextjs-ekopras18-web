@@ -55,6 +55,9 @@ export default function HamburgerMenu() {
           <Link href="/about" className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-green-900 md:text-gray-300 md:hover:text-white md:hover:bg-gray-700 md:mx-2">
             About
           </Link>
+          <Link href="/certificate" className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-green-900 md:text-gray-300 md:hover:text-white md:hover:bg-gray-700 md:mx-2">
+            Certificate
+          </Link>
           <Link href="/repository" className="block px-3 py-2 rounded-md text-base font-medium text-gray-400 hover:text-white hover:bg-green-900 md:text-gray-300 md:hover:text-white md:hover:bg-gray-700 md:mx-2">
             Repository
           </Link>

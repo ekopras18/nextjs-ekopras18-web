@@ -4,6 +4,8 @@ import BackgroundColor from '@/components/layout/BackgroundColor'
 import Header from '@/components/layout/Header'
 import { Providers } from '@/components/Providers'
 import { Jost } from '@next/font/google'
+import Script from 'next/script';
+
 export const metadata = {
   title: {
     default: "Eko Prasetio, B.Eng., S.Kom.",
@@ -41,6 +43,16 @@ export default function RootLayout({
 
   return (
     <html lang="en" suppressHydrationWarning className="scroll-smooth">
+      <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=G-84ST0BV9VV`} />
+      <Script id="gtag-init">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-84ST0BV9VV');
+        `}
+      </Script>
       <body className={dosis.className}>
         <Providers>
           <Header />

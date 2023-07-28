@@ -30,7 +30,7 @@ export default function HeroSection() {
                   <span className="block  xl:inline">
                     <Typewriter
                       options={{
-                        strings: ['Eko Prasetio, B.Eng., S.Kom.', 'a Full Stack Developer 🦖'], //'as Jeruk Pras 🍊', 
+                        strings: ['Eko Prasetio, B.Eng., S.Kom.', 'a Full Stack Developer 🚀'], //'as Jeruk Pras 🍊', 
                         autoStart: true,
                         deleteSpeed: 30,
                         loop: true,
