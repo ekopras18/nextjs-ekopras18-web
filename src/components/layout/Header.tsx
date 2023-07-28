@@ -27,6 +27,8 @@ export default function Header() {
                 href="/portfolio">Portfolio</Link>
               <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
                 href="/about">About</Link>
+              <Link className="text-sm transition-colors duration-200 text-gray-500 hover:text-green-500"
+                href="/certificate">Certificate</Link>
               <Link className="text-sm relative transition-colors duration-200 text-gray-500 hover:text-green-500"
                 href="/repository" rel="noopener noreferrer">Repository
                 <svg aria-hidden="true" className="absolute top-[0.5px] right-[-10px] fill-current" height="7" viewBox="0 0 6 6" width="7">
