@@ -55,6 +55,8 @@ export default function RootLayout({
       </Script>
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8074306341178343"
      crossOrigin="anonymous"></Script>
+     <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1478361081364562"
+     crossOrigin="anonymous"></Script>
       <body className={dosis.className}>
         <Providers>
           <Header />
